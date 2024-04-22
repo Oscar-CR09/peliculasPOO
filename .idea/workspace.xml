@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c4b5c69-a5b5-4d9a-83e3-57daf437f2f2" name="Changes" comment="">
+    <list default="true" id="1c4b5c69-a5b5-4d9a-83e3-57daf437f2f2" name="Changes" comment="pelicula clase principal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pelicula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,19 @@
       <option name="presentableId" value="Default" />
       <updated>1713739771511</updated>
     </task>
+    <task id="LOCAL-00001" summary="pelicula clase principal">
+      <option name="closed" value="true" />
+      <created>1713742511625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713742511625</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pelicula clase principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="pelicula clase principal" />
   </component>
 </project>
