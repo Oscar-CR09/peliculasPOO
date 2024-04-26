@@ -1,3 +1,5 @@
+package com.aluracursos.scremach.modelos;
+
 public class Pelicula {
     String nombre;
     int fechaDeLanzamiento;
@@ -5,7 +7,12 @@ public class Pelicula {
     boolean incluidoEnElPlan;
 
     private double sumaDeEvaluaciones;
-    private totalDeLasEvaulaciones;
+    private int totalDeLasEvaulaciones;
+
+    int getTotalDeLasEvaluaciones(){
+        return totalDeLasEvaulaciones;
+
+    }
 
     void muestraFichaTecnica(){
         System.out.println("El nombre de la pelicula es: " + nombre);
