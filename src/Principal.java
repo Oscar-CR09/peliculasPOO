@@ -1,4 +1,5 @@
 import com.aluracursos.scremach.modelos.Pelicula;
+import com.aluracursos.scremach.modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -15,6 +16,14 @@ public class Principal {
         System.out.println(miPelicula.getTotalDeLasEvaluaciones());
         System.out.println(miPelicula.calculaMedia());
 
+        Serie casaDragones = new Serie();
+        casaDragones.setNombre("Casa de los dragones");
+        casaDragones.setFechaDeLanzamiento(2022);
+        casaDragones.setEpisodosPorTemporada(1);
+        casaDragones.setMinutosPorTemporada(58);
+        casaDragones.setEpisodosPorTemporada(10);
+        casaDragones.muestraFichaTecnica();
+        System.out.println(casaDragones.getDuracionEnMinutos());
 
 
 
