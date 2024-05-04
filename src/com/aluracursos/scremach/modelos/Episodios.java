@@ -1,6 +1,8 @@
 package com.aluracursos.scremach.modelos;
 
-public class Episodios {
+import com.aluracurso.scremach.calculos.Clasificacion;
+
+public class Episodios implements Clasificacion {
 
     private int numero;
 
@@ -29,7 +31,19 @@ public class Episodios {
         return serie;
     }
 
+    private int totalVisualizaciones;
+
     public void setSerie(Serie serie) {
         this.serie = serie;
+    }
+
+    @Override
+    public int getClasificacion() {
+        if (totalVisualizaciones > 100){
+            return 4;
+
+        }else {
+            return 2;
+        }
     }
 }

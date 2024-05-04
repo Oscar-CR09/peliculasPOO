@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c4b5c69-a5b5-4d9a-83e3-57daf437f2f2" name="Changes" comment="Herencia poliformismo encapsulamiento">
-      <change afterPath="$PROJECT_DIR$/src/com/aluracurso/scremach/calculos/Clasificacion.java" afterDir="false" />
+    <list default="true" id="1c4b5c69-a5b5-4d9a-83e3-57daf437f2f2" name="Changes" comment="interfases">
+      <change afterPath="$PROJECT_DIR$/src/com/aluracurso/scremach/calculos/FiltroRecomendacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Episodios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Episodios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Pelicula.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714612302505</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="interfases">
+      <option name="closed" value="true" />
+      <created>1714612886106</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714612886106</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,6 +135,7 @@
     <MESSAGE value="reestructuracion" />
     <MESSAGE value="calcularTiempos" />
     <MESSAGE value="Herencia poliformismo encapsulamiento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Herencia poliformismo encapsulamiento" />
+    <MESSAGE value="interfases" />
+    <option name="LAST_COMMIT_MESSAGE" value="interfases" />
   </component>
 </project>
