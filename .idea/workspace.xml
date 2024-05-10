@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c4b5c69-a5b5-4d9a-83e3-57daf437f2f2" name="Changes" comment="interfases">
-      <change afterPath="$PROJECT_DIR$/src/com/aluracurso/scremach/calculos/FiltroRecomendacion.java" afterDir="false" />
+    <list default="true" id="1c4b5c69-a5b5-4d9a-83e3-57daf437f2f2" name="Changes" comment="clasificacion pelicula">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Episodios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Episodios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Pelicula.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Oscar-CR09&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Oscar-CR09/peliculasPOO.git&quot;,
+    &quot;accountId&quot;: &quot;e2c48a49-0c40-4d74-a2ce-d11e75adecdc&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-21/lib/src.zip!/java.base/java/io/PrintStream.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -123,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714612886106</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="clasificacion pelicula">
+      <option name="closed" value="true" />
+      <created>1714797593755</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714797593755</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +159,7 @@
     <MESSAGE value="calcularTiempos" />
     <MESSAGE value="Herencia poliformismo encapsulamiento" />
     <MESSAGE value="interfases" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfases" />
+    <MESSAGE value="clasificacion pelicula" />
+    <option name="LAST_COMMIT_MESSAGE" value="clasificacion pelicula" />
   </component>
 </project>

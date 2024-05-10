@@ -2,6 +2,8 @@ import com.aluracurso.scremach.calculos.CalculadoraDeTiempo;
 import com.aluracursos.scremach.modelos.Pelicula;
 import com.aluracursos.scremach.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Principal {
     public static void main(String[] args) {
         Pelicula miPelicula = new Pelicula();
@@ -39,7 +41,21 @@ public class Principal {
         System.out.println("Tiempo de necesario para ver tus titulos favoritos" +
                 calculadora.getTiempoTotal() + "minutos" );
 
+        var peliculaOscar = new Pelicula();
+        peliculaOscar.setNombre("Señor de los anillos");
+        peliculaOscar.setDuracionEnMinutos(180);
+        peliculaOscar.setFechaDeLanzamiento(2001);
 
+        ArrayList<Pelicula> listaDePeliculas = new ArrayList<>();
+        listaDePeliculas.add(peliculaOscar);
+        listaDePeliculas.add(miPelicula);
+        listaDePeliculas.add(otraPelicula);
+
+        System.out.println("Tamaño de la lista: " + listaDePeliculas.size());
+        System.out.println("La primera pelicula es: " + listaDePeliculas.get(0).getNombre());
+        System.out.println(listaDePeliculas.toString());
+
+        System.out.println("toString de la pelicula: " + listaDePeliculas.get(0).toString());
 
     }
 }
