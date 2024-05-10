@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c4b5c69-a5b5-4d9a-83e3-57daf437f2f2" name="Changes" comment="clasificacion pelicula">
+    <list default="true" id="1c4b5c69-a5b5-4d9a-83e3-57daf437f2f2" name="Changes" comment="gerarquia de object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/scremach/modelos/Pelicula.java" afterDir="false" />
@@ -146,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714797593755</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gerarquia de object">
+      <option name="closed" value="true" />
+      <created>1715314218554</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715314218555</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +168,7 @@
     <MESSAGE value="Herencia poliformismo encapsulamiento" />
     <MESSAGE value="interfases" />
     <MESSAGE value="clasificacion pelicula" />
-    <option name="LAST_COMMIT_MESSAGE" value="clasificacion pelicula" />
+    <MESSAGE value="gerarquia de object" />
+    <option name="LAST_COMMIT_MESSAGE" value="gerarquia de object" />
   </component>
 </project>

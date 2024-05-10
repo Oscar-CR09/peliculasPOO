@@ -6,8 +6,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Pelicula miPelicula = new Pelicula();
-        miPelicula.setNombre("Encanto");
+        Pelicula miPelicula = new Pelicula("Encanto");
         miPelicula.setFechaDeLanzamiento(2021);
         miPelicula.setDuracionEnMinutos(120);
         miPelicula.setIncluidoEnElPlan(true);
@@ -28,8 +27,7 @@ public class Principal {
         casaDragones.muestraFichaTecnica();
         System.out.println(casaDragones.getDuracionEnMinutos());
 
-        Pelicula otraPelicula = new Pelicula();
-        otraPelicula.setNombre("Matrix");
+        Pelicula otraPelicula = new Pelicula("Matrix");
         otraPelicula.setFechaDeLanzamiento(1998);
         otraPelicula.setDuracionEnMinutos(180);
 
@@ -41,8 +39,7 @@ public class Principal {
         System.out.println("Tiempo de necesario para ver tus titulos favoritos" +
                 calculadora.getTiempoTotal() + "minutos" );
 
-        var peliculaOscar = new Pelicula();
-        peliculaOscar.setNombre("Señor de los anillos");
+        var peliculaOscar = new Pelicula("Señor de los anillos");
         peliculaOscar.setDuracionEnMinutos(180);
         peliculaOscar.setFechaDeLanzamiento(2001);
 
@@ -56,6 +53,7 @@ public class Principal {
         System.out.println(listaDePeliculas.toString());
 
         System.out.println("toString de la pelicula: " + listaDePeliculas.get(0).toString());
+
 
     }
 }
