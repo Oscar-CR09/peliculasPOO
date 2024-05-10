@@ -6,8 +6,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Pelicula miPelicula = new Pelicula("Encanto");
-        miPelicula.setFechaDeLanzamiento(2021);
+        Pelicula miPelicula = new Pelicula("Encanto",2021);
         miPelicula.setDuracionEnMinutos(120);
         miPelicula.setIncluidoEnElPlan(true);
 
@@ -18,17 +17,14 @@ public class Principal {
         System.out.println(miPelicula.getTotalDeLasEvaluaciones());
         System.out.println(miPelicula.calculaMedia());
 
-        Serie casaDragones = new Serie();
-        casaDragones.setNombre("Casa de los dragones");
-        casaDragones.setFechaDeLanzamiento(2022);
+        Serie casaDragones = new Serie("Casa de los dragones", 2022);
         casaDragones.setEpisodosPorTemporada(1);
         casaDragones.setMinutosPorTemporada(58);
         casaDragones.setEpisodosPorTemporada(10);
         casaDragones.muestraFichaTecnica();
         System.out.println(casaDragones.getDuracionEnMinutos());
 
-        Pelicula otraPelicula = new Pelicula("Matrix");
-        otraPelicula.setFechaDeLanzamiento(1998);
+        Pelicula otraPelicula = new Pelicula("Matrix",1998);
         otraPelicula.setDuracionEnMinutos(180);
 
 
@@ -39,9 +35,8 @@ public class Principal {
         System.out.println("Tiempo de necesario para ver tus titulos favoritos" +
                 calculadora.getTiempoTotal() + "minutos" );
 
-        var peliculaOscar = new Pelicula("Señor de los anillos");
+        var peliculaOscar = new Pelicula("Señor de los anillos",2021);
         peliculaOscar.setDuracionEnMinutos(180);
-        peliculaOscar.setFechaDeLanzamiento(2001);
 
         ArrayList<Pelicula> listaDePeliculas = new ArrayList<>();
         listaDePeliculas.add(peliculaOscar);
