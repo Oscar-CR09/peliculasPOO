@@ -1,3 +1,5 @@
+package principal;
+
 import com.aluracurso.scremach.calculos.CalculadoraDeTiempo;
 import com.aluracursos.scremach.modelos.Pelicula;
 import com.aluracursos.scremach.modelos.Serie;
