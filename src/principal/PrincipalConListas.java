@@ -25,9 +25,12 @@ public class PrincipalConListas {
         listas.add(lost);
 
         for (Titulo item:listas){
-            System.out.println(item);
-            Pelicula pelicula = (Pelicula) item;
-            System.out.println(((Pelicula) item).getClasificacion());
+            System.out.println(item.getNombre());
+            if (item instanceof Pelicula pelicula ){
+
+                System.out.println(((Pelicula) item).getClasificacion());
+            }
+
         }
 
 
