@@ -5,6 +5,8 @@ import com.aluracursos.scremach.modelos.Serie;
 import com.aluracursos.scremach.modelos.Titulo;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class PrincipalConListas {
     public static void main(String[] args) {
@@ -30,8 +32,20 @@ public class PrincipalConListas {
 
                 System.out.println(((Pelicula) item).getClasificacion());
             }
-
         }
+
+        ArrayList<String> listaArtista = new ArrayList<>();
+        listaArtista.add("Penelope Cruz");
+        listaArtista.add("Antonio Balderas");
+        listaArtista.add("Ricardo Durin");
+        System.out.println(listaArtista);
+
+        Collections.sort(listaArtista);
+
+        System.out.println("Lista de Artista ordenada " + listaArtista);
+
+        Collections.sort(listas);
+        System.out.println("Listas de titulos ordenadas: " + listas);
 
 
     }
