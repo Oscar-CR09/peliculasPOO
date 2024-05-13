@@ -4,9 +4,7 @@ import com.aluracursos.scremach.modelos.Pelicula;
 import com.aluracursos.scremach.modelos.Serie;
 import com.aluracursos.scremach.modelos.Titulo;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.*;
 
 public class PrincipalConListas {
     public static void main(String[] args) {
@@ -20,7 +18,7 @@ public class PrincipalConListas {
         peliculaOscar.evalua(10);
         Serie lost = new Serie("Lost" , 2000);
 
-        ArrayList<Titulo> listas = new ArrayList<>();
+        List<Titulo> listas = new LinkedList<>();
         listas.add(peliculaOscar);
         listas.add(miPelicula);
         listas.add(otraPelicula);
@@ -48,5 +46,8 @@ public class PrincipalConListas {
         System.out.println("Listas de titulos ordenadas: " + listas);
 
 
+        listas.sort(Comparator.comparing(Titulo::getFechaDeLanzamiento));
+
+        System.out.println("Lista ordenada por fecha " + listas);
     }
 }

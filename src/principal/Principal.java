@@ -29,7 +29,6 @@ public class Principal {
         Pelicula otraPelicula = new Pelicula("Matrix",1998);
         otraPelicula.setDuracionEnMinutos(180);
 
-
         CalculadoraDeTiempo calculadora = new CalculadoraDeTiempo();
         calculadora.incluye(miPelicula);
         calculadora.incluye(casaDragones);
@@ -50,7 +49,5 @@ public class Principal {
         System.out.println(listaDePeliculas.toString());
 
         System.out.println("toString de la pelicula: " + listaDePeliculas.get(0).toString());
-
-
     }
 }
